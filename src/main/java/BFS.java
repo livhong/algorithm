@@ -1,6 +1,8 @@
-import org.omg.CORBA.INTERNAL;
-
+/*
+* Breadth first search
+* */
 import java.util.ArrayList;
+
 import java.util.List;
 
 public class BFS {

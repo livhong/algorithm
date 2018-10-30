@@ -1,3 +1,6 @@
+/*
+* Depth first search
+* */
 public class DFS {
 
     static int NODE_NUM = 9;
