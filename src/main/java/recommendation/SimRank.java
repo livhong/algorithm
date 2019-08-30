@@ -48,6 +48,7 @@ public class SimRank {
         if(i==j) return 1;
         List<Integer> list1 = getInNode(i);
         List<Integer> list2 = getInNode(j);
+        if(list1.size()==0||list2.size()==0) return 0;
         double sum = 0;
         for(int index1: list1){
             for(int index2: list2){
